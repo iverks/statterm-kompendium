@@ -1,0 +1,33 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+  - file: kapitler/1
+  - file: kapitler/2
+  - file: kapitler/3
+  - file: kapitler/4
+  - file: kapitler/5
+  - file: kapitler/6
+  - file: kapitler/7
+  - file: kapitler/8
+  - file: kapitler/9
+  - file: kapitler/10
+  - file: kapitler/11
+  - file: kapitler/13
+  - file: kapitler/14
+  - file: kapitler/15
+  - file: kapitler/16
+  - file: kapitler/17
+  - file: kapitler/19
+  - file: kapitler/20
+  - file: kapitler/21
+  - file: kapitler/22
+  - file: kapitler/23
+  - file: kapitler/24
+  - file: kapitler/25
+  - file: kapitler/27
+  - file: kapitler/32
+  - file: appendiks/A
+  - file: appendiks/definisjoner
