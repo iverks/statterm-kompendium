@@ -2,7 +2,7 @@
 
 [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://iverks.github.io/statterm-kompendium)
 
-Dette kompendiet er laget med [jupyter-book](https://jupyterbook.org/en/stable/intro.html), og [nettsiden](https://iverks.github.com/statterm-kompendium) hostes gratis på github pages og oppdateres automatisk når endringer skjer ved hjelp av github actions. Om du er en fremtidig student som ønsker å rette en skrivefeil eller fullføre noe av det som jeg sikkert ikke har skrevet helt ferdig kan du gjøre det ved å klone eller forke repoet og så åpne en pull-request. Jeg kommer nok til å godkjenne det meste.
+Dette kompendiet er laget med [jupyter-book](https://jupyterbook.org/en/stable/intro.html), og [nettsiden](https://iverks.github.io/statterm-kompendium) hostes gratis på github pages og oppdateres automatisk når endringer skjer ved hjelp av github actions. Om du er en fremtidig student som ønsker å rette en skrivefeil eller fullføre noe av det som jeg sikkert ikke har skrevet helt ferdig kan du gjøre det ved å klone eller forke repoet og så åpne en pull-request. Jeg kommer nok til å godkjenne det meste.
 
 Kompendiet kan også [kompileres til latex](https://jupyterbook.org/en/stable/advanced/pdf.html) om det er den foretrukkede måten å distribuere det på.
 
