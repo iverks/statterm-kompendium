@@ -1,4 +1,6 @@
 from pathlib import Path
+import re
+from slugify import slugify
 
 class Config():
     start_dir: Path = Path(__file__).parent.resolve()
@@ -14,13 +16,14 @@ def main():
     summary = "# A: Sammendrag\n"
     for filepath in files:
         filepath.resolve()
-        print(filepath)
         with filepath.open("r") as chap_file:
             stringy = chap_file.read()
         stringy = stringy.split("##")[0] # Get only introductory paragraph
-        stringy = stringy.replace("#", "##")
-        summary += "\n"
-        summary += stringy
+        stringy = re.sub(r"\(.*\)=\n", "", stringy) # Remove myst labels to avoid duplicates
+        title = re.search(r"#\s?\d*:?\s?(.*)\n", stringy).group(1)+" sammendrag" 
+        stringy = "("+slugify(title)+")=\n"+stringy # Make new myst label from slug of title
+        stringy = stringy.replace("#", "##") # Only one h1 per page
+        summary += "\n" + stringy
     
     with (Config.appendix_dir/"A.md").open("w") as summary_file:
         summary_file.write(summary)
