@@ -121,7 +121,7 @@ Bragg-Williams-modellen antar at partiklene spres uniformt når de blandes - den
 
 (solvatering-og-overfa-ring-mellom-faser-sammendrag)=
 
-## Solvatering og overføring mellom faser
+## 16: Solvatering og overføring mellom faser
 
 I systemer av to komponenter der én av komponentene kan forlate den kondenserte fasen til gassfase, eller til andre kondenserte faser, avhenger denne partikkelutvekslingen av konsentrasjonen til den komponenten i løsningen. Slike systemer kan studeres gjennom gittermodeller for å forklare, blant annet, hvorfor man øker **kokepunktet** og synker **frysepunktet** til en væske ved å legge til salt. Å legge til salt på én side av en halvgjennomtrengelig membran gir opphav til et **osmotisk trykk**.
 
