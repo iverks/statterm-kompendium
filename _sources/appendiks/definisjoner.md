@@ -33,6 +33,14 @@ Generelt sett innebærer det å taylorutvikle en funksjon $f(x,y)$ rundt en verd
 
 $$f(x,y) \approx f(x,y)\Big|_{y=y_0}+(y-y_0)\frac{\partial f}{\partial y}\Big|_{y=y_0}$$
 
+(bragg-williams)=
+
+## Bragg-Williams
+
+Bragg-Williams tilnærmingen er å anta at alle molekylene er uniformt fordelt (ofte på en lattice). Dette gir ikke helt mening, fordi: Hvis vi har A-molekyler og B-molekyler, og AB-bindinger er mer gunstige enn BB-bindinger og AA-bindinger, så er det egentlig mer sannsynlig at B-molekylene er nært et A-molekyl enn et annet B-molekyl.
+
+Bragg-Williams tilnærmingen blir også kalt mean-field approximation.
+
 (lenker)=
 
 ## Lenker

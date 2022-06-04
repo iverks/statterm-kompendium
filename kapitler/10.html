@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>10: Boltzmanns fordelingslov &#8212; Kompendium Bioteknologi</title>
+    <title>10: Boltzmanns fordelingslov &#8212; Kompendium Statterm</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -99,7 +99,7 @@ const thebe_selector_output = ".output, .cell_output"
       <img src="../_static/logo.png" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">Kompendium Bioteknologi</h1>
+      <h1 class="site-logo" id="site-title">Kompendium Statterm</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
@@ -188,7 +188,7 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="16.html">
-   Solvatering og overføring mellom faser
+   16: Solvatering og overføring mellom faser
   </a>
  </li>
  <li class="toctree-l1">
@@ -406,12 +406,43 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ensemble">
+   Ensemble
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#microcanonical-ensemble">
+     Microcanonical ensemble
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -423,6 +454,26 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ensemble">
+   Ensemble
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#microcanonical-ensemble">
+     Microcanonical ensemble
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -434,6 +485,36 @@ title="Print to PDF"
 <h1>10: Boltzmanns fordelingslov<a class="headerlink" href="#boltzmanns-fordelingslov" title="Permalink to this headline">#</a></h1>
 <p>Boltzmanns fordelingslov, som gir fordelingen av atomer og molekyler over de tilgjengelige energinivåene ved likevekt, utledes. Dersom man har en modell for hvilke energinivå som er tilgjengelige for et system, kan man bruke Boltzmanns fordelingslov til å utlede hvordan partiklene fordeler seg over energinivåene, samt finne den korresponderende partisjonsfunksjonen. Med <strong>partisjonsfunksjonen</strong> kan man regne ut termodynamiske og (gjennomsnittlige) fysiske størrelser, som energi, entropi, frie energier, kjemisk potensial og trykk. Partisjonsfunksjonen til et helt system er produktet av partisjonsfunksjonene til hver enkelt partikkel, skalert med <span class="math notranslate nohighlight">\(1/N!\)</span> når det er umulig å skjelne mellom forskjellige partikler.</p>
 <p>Ensembler introduseres som samlingen av alle mikrotilstander for et system som oppfyller visse makroskopiske betingelser. Mer konkret brukes ensembler for å referere til hvilke variable som holdes konstant (og, implisitt, hva frihetsgradene er).</p>
+<section id="ensemble">
+<span id="id1"></span><h2>Ensemble<a class="headerlink" href="#ensemble" title="Permalink to this headline">#</a></h2>
+<p>Et ensemble er et system der du kontrollerer noen av variablene.<br />
+Noen av ensemblene er så mye brukt at de har fått navn. Alle andre refereres til som (X,Y,Z)-ensemble.</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>navn</p></th>
+<th class="head"><p>verdier</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>canonical ensemble</p></td>
+<td><p><span class="math notranslate nohighlight">\((T, V, N)\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>microcanonical ensemble</p></td>
+<td><p><span class="math notranslate nohighlight">\((U, V, N)\)</span></p></td>
+</tr>
+<tr class="row-even"><td><p>grand canonical ensemble</p></td>
+<td><p><span class="math notranslate nohighlight">\((T, V, \mu)\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>isothermal-isobaric</p></td>
+<td><p><span class="math notranslate nohighlight">\((T, p, N)\)</span></p></td>
+</tr>
+</tbody>
+</table>
+<section id="microcanonical-ensemble">
+<h3>Microcanonical ensemble<a class="headerlink" href="#microcanonical-ensemble" title="Permalink to this headline">#</a></h3>
+<p>Microcanonical ensemble <span class="math notranslate nohighlight">\((U, V, N)\)</span> er spesielt fordi alle microstates er ekvivalente.</p>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
