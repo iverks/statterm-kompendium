@@ -248,7 +248,7 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../appendiks/definisjoner.html">
-   Definisjoner
+   B: Definisjoner
   </a>
  </li>
 </ul>
@@ -406,12 +406,36 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#utledningene-av-de-fundamentale-ligningene">
+   Utledningene av de fundamentale ligningene
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -423,6 +447,19 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#utledningene-av-de-fundamentale-ligningene">
+   Utledningene av de fundamentale ligningene
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -432,13 +469,44 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="termodynamiske-drivkrefter">
 <h1>6: Termodynamiske drivkrefter<a class="headerlink" href="#termodynamiske-drivkrefter" title="Permalink to this headline">#</a></h1>
-<p><strong>Fundamentale</strong> ligninger introduseres. De fundamentale ligningene for endringen i energi <span class="math notranslate nohighlight">\(dU\)</span> og endringen i entropi <span class="math notranslate nohighlight">\(dS\)</span> er fundamentale fordi de fullstendig spesifiserer alle endringer som kan forekomme i et enkelt termodynamisk system. <span class="math notranslate nohighlight">\(dU\)</span> er en funksjon av kun ekstensive variable, som vil bli nyttig å vite fra og med kapittel 9. Den fundamentale ligningen for <span class="math notranslate nohighlight">\(S(U, V, N)\)</span> er
-$<span class="math notranslate nohighlight">\(dS = \frac{1}{T}dU + \frac{p}{T}dV − PM j=1 \frac {\mu j}{T}dNj\)</span><span class="math notranslate nohighlight">\(
-og har et **ekstremverdiprinsipp**: \)</span>dS = 0<span class="math notranslate nohighlight">\( ved likevekt. Samtidig gir ligningen definisjoner av temperatur, trykk og kjemisk potensial:
-\)</span><span class="math notranslate nohighlight">\(\frac{1}{T} = \left(\frac{\partial S}{\partial U}\right)_{V,N}\)</span><span class="math notranslate nohighlight">\(
-\)</span><span class="math notranslate nohighlight">\(\frac{p}{T} = \left(\frac{\partial S}{\partial V}\right)_{U,N}\)</span><span class="math notranslate nohighlight">\(
-\)</span><span class="math notranslate nohighlight">\(\frac{\mu _j}{T} = -\left(\frac{\partial S}{\partial N_j}\right)_{U,V,N_{i\neq j}}\)</span><span class="math notranslate nohighlight">\(
-Disse definisjonene kan kombineres med enkle **gittermodeller** for å utlede tilstandsligninger for enkle systemer, for eksempel den ideelle gassloven. Tolkninger av de termodynamiske drivkreftene er: \)</span>1/T<span class="math notranslate nohighlight">\( er systemets tendens til å utveksle energi i form av varme, \)</span>p/T<span class="math notranslate nohighlight">\( er systemets tendens til å endre volum, og \)</span>\mu_j/T<span class="math notranslate nohighlight">\( er systemets tendens til å utveksle partikler. De termodynamiske drivkreftene er [**intensive størrelser**](intensiv-ekstensiv-storrelse) som er konjugater til (opptrer i par med) [**ekstensive størrelser**](intensiv-ekstensiv-storrelse), henholdsvis \)</span>U<span class="math notranslate nohighlight">\(, \)</span>V<span class="math notranslate nohighlight">\( og \)</span>N$. Den intensive størrelsen beskriver hvordan entropien vil endres som respons på en endring av den ekstensive størrelse</p>
+<p><strong>Fundamentale</strong> ligninger introduseres. De fundamentale ligningene for endringen i energi <span class="math notranslate nohighlight">\(dU\)</span> og endringen i entropi <span class="math notranslate nohighlight">\(dS\)</span> er fundamentale fordi de fullstendig spesifiserer alle endringer som kan forekomme i et enkelt termodynamisk system. <span class="math notranslate nohighlight">\(dU\)</span> er en funksjon av kun ekstensive variable, som vil bli nyttig å vite fra og med kapittel 9. Den fundamentale ligningen for <span class="math notranslate nohighlight">\(S(U, V, N)\)</span> er</p>
+<div class="math notranslate nohighlight">
+\[
+dS = \frac{1}{T}dU + \frac{p}{T}dV − PM j=1 \frac{\mu j}{T}dNj
+\]</div>
+<p>og har et <strong>ekstremverdiprinsipp</strong>: <span class="math notranslate nohighlight">\(dS = 0\)</span> ved likevekt. Samtidig gir ligningen definisjoner av temperatur, trykk og kjemisk potensial:</p>
+<div class="math notranslate nohighlight">
+\[
+\frac{1}{T} = \left(\frac{\partial S}{\partial U}\right)_{V,N} \text{,} \quad
+\frac{p}{T} = \left(\frac{\partial S}{\partial V}\right)_{U,N} \text{,} \quad
+\frac{\mu _j}{T} = -\left(\frac{\partial S}{\partial N_j}\right)_{U,V,N_{i\neq j}}
+\]</div>
+<p>Disse definisjonene kan kombineres med enkle <strong>gittermodeller</strong> for å utlede tilstandsligninger for enkle systemer, for eksempel den ideelle gassloven. Tolkninger av de termodynamiske drivkreftene er: <span class="math notranslate nohighlight">\(1/T\)</span> er systemets tendens til å utveksle energi i form av varme, <span class="math notranslate nohighlight">\(p/T\)</span> er systemets tendens til å endre volum, og <span class="math notranslate nohighlight">\(\mu_j/T\)</span> er systemets tendens til å utveksle partikler. De termodynamiske drivkreftene er <a class="reference internal" href="../appendiks/definisjoner.html#intensiv-ekstensiv-storrelse"><span class="std std-ref"><strong>intensive størrelser</strong></span></a> som er konjugater til (opptrer i par med) <a class="reference internal" href="../appendiks/definisjoner.html#intensiv-ekstensiv-storrelse"><span class="std std-ref"><strong>ekstensive størrelser</strong></span></a>, henholdsvis <span class="math notranslate nohighlight">\(U\)</span>, <span class="math notranslate nohighlight">\(V\)</span> og <span class="math notranslate nohighlight">\(N\)</span>. Den intensive størrelsen beskriver hvordan entropien vil endres som respons på en endring av den ekstensive størrelse</p>
+<section id="utledningene-av-de-fundamentale-ligningene">
+<h2>Utledningene av de fundamentale ligningene<a class="headerlink" href="#utledningene-av-de-fundamentale-ligningene" title="Permalink to this headline">#</a></h2>
+<p>Start med antagelsen at energi er en funksjon av entropi, volum og antall partikler, <span class="math notranslate nohighlight">\(U = U(S,V,N)\)</span>. Da skal det ikke mye til for å overtale deg til at endringen i <span class="math notranslate nohighlight">\(U\)</span> totalt er lik summen av endringene i <span class="math notranslate nohighlight">\(U\)</span> som kommer av hver av de tre variablenes endring. Hver av dem har sitt eget stigningstall. Altså: endringen i U som kommer av endring i S har stigningstall som er lik den partiellderiverte til U langs S-aksen.</p>
+<div class="math notranslate nohighlight">
+\[
+dU_{Som kommer av endring i S} = \left(\frac{\partial U}{\partial S}\right)_{V, N} \cdot dS
+\]</div>
+<p>Gjentar at den partiellderiverte av U mhp. S er stignigstallet. dS er endringen i S. Denne formelen gjelder alltid for alle flervariable funksjoner. Den totale endringen i U, dU, er summen av tre slike ledd, ett for hver variabel.</p>
+<div class="math notranslate nohighlight">
+\[
+dU = \left(\frac{\partial U}{\partial S}\right)_{V, N} \cdot dS + \left(\frac{\partial U}{\partial V}\right)_{S, N} \cdot dV + \sum^M_{j=1} \left(\frac{\partial U}{\partial N_j}\right)_{S, V, N_{i \neq j}} \cdot dN_j
+\]</div>
+<p>N-leddet er en sum fordi vi kan ha flere forskjellige stoff med ulikt antall, men det kompliserer ikke konseptet.<br />
+Vi anser disse stigningstallene til å være <em>konstanter</em>, og definerer dem som:</p>
+<div class="math notranslate nohighlight">
+\[
+T = \left(\frac{\partial S}{\partial U}\right)_{V, N} \text{, } p = - \left(\frac{\partial U}{\partial V}\right)_{S, N} \text{ og } \mu_j = \left(\frac{\partial U}{\partial N_j}\right)_{S, V, N_{i \neq j}}
+\]</div>
+<p>Disse variablene kjenner vi igjen fra tidligere fag som temperatur T, trykk p og kjemisk potensial for stoff j <span class="math notranslate nohighlight">\(\mu_j\)</span>. Vi setter inn disse nydefinerte stigningstallene som konstanter i ligningen og ender opp med</p>
+<div class="math notranslate nohighlight">
+\[
+dU = T dS -p dV + \sum^M_{j=1} \mu_j dN_j
+\]</div>
+<p>Dette syntes jeg var en utledning som var litt tung å svelge i begynnelsen, men når du skjønner det er det enkelt. Det er viktig å forstå denne for å henge med i utledninger i resten av faget. Jeg gjentar at <span class="math notranslate nohighlight">\(T\)</span>, <span class="math notranslate nohighlight">\(p\)</span>, og <span class="math notranslate nohighlight">\(\mu_j\)</span> er konstanter som vi har definert. Det er bare “tilfeldig” at de samsvarer til egenskaper som vi har sett før.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">

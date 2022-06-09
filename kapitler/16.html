@@ -50,6 +50,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="17: Fysisk kinetikk" href="17.html" />
@@ -246,7 +248,7 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../appendiks/definisjoner.html">
-   Definisjoner
+   B: Definisjoner
   </a>
  </li>
 </ul>
@@ -404,12 +406,61 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#lynutledning-damptrykk">
+   Lynutledning damptrykk
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#solvatering">
+   Solvatering
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#raoults-lov">
+   Raoults lov
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#henrys-lov">
+   Henrys lov
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#osmose">
+   Osmose
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#salt-gjor-flytende-fase-mer-gunstig">
+   Salt gjør flytende fase mer gunstig
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -421,6 +472,44 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#lynutledning-damptrykk">
+   Lynutledning damptrykk
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#solvatering">
+   Solvatering
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#raoults-lov">
+   Raoults lov
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#henrys-lov">
+   Henrys lov
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#osmose">
+   Osmose
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#salt-gjor-flytende-fase-mer-gunstig">
+   Salt gjør flytende fase mer gunstig
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -433,6 +522,95 @@ title="Print to PDF"
 <p>I systemer av to komponenter der én av komponentene kan forlate den kondenserte fasen til gassfase, eller til andre kondenserte faser, avhenger denne partikkelutvekslingen av konsentrasjonen til den komponenten i løsningen. Slike systemer kan studeres gjennom gittermodeller for å forklare, blant annet, hvorfor man øker <strong>kokepunktet</strong> og synker <strong>frysepunktet</strong> til en væske ved å legge til salt. Å legge til salt på én side av en halvgjennomtrengelig membran gir opphav til et <strong>osmotisk trykk</strong>.</p>
 <p><strong>Partisjonskoeffisienten</strong> er forholdet mellom konsentrasjonen av et løst stoff i ett løsemiddel og konsentrasjonen av det samme stoffet i et annet løsemiddel.</p>
 <p>En gittermodell for <strong>dimerisering</strong> av oppløste stoffer i et løsemiddel utledes og brukes til å beskrive <strong>hydrofob effekt</strong>.</p>
+<div class="admonition-hva-er-volatilitet admonition">
+<p class="admonition-title">Hva er volatilitet?</p>
+<p>Volatilitet er evnen til å bytte mellom to faser. For eksempel når saltvann (blanding av salt og vann) fryser går vannet over i en fast fase (frossen). Vannet er volatilt. Saltet går ikke over i den faste fasen. Saltet er ikke volatilt. Saltet blir værende igjen i den flytende fasen til det felles ut. Det samme gjelder når vann koker.
+Vann trenger ikke å gå i faseoverganger for å være volatilt. I osmose har vi saltvann på en side av en membran og rent vann på den andre siden. Vannet kan gå mellom den rene og den saltholdige fasen gjennom membranen. Vannet er volatilt. Saltet kan ikke trenge gjennom membranen og er ikke volatilt.
+Vann er ikke nødvendigvis den volatile fasen. Hvis vi har <span class="math notranslate nohighlight">\(CO_2\)</span> løst i vann ved romtemperatur er <span class="math notranslate nohighlight">\(CO_2\)</span> den volatile fasen. Dette ser vi mer om etterpå.
+Vi har altså tre eksempler på situasjoner der et stoff er mer volatilt enn det andre: Saltvann i faseovergang, karbondioksid som løses i vann og osmose</p>
+</div>
+<section id="lynutledning-damptrykk">
+<h2>Lynutledning damptrykk<a class="headerlink" href="#lynutledning-damptrykk" title="Permalink to this headline">#</a></h2>
+<p>Likevekt er når de kjemiske potentialene for to faser er like</p>
+<div class="math notranslate nohighlight">
+\[
+\mu_B(gass) = \mu_B(væske)
+\]</div>
+<p>Det kjemiske potentialet til en gass kommer fra kapittel 11 (ligning 11.50)</p>
+<div class="math notranslate nohighlight">
+\[
+\mu_B(gass) = kT \ln(p_B/p^0_{B,int})
+\]</div>
+<p>Det kjemiske potentialet til en væske kommer fra kapittel 15 (ligning 15.17)</p>
+<div class="math notranslate nohighlight">
+\[
+\mu_B(væske) = kT \ln x_B + zw_BB/2 + kT\chi_{AB}(1-x_B)^2
+\]</div>
+<p>Om vi slår disse ligningene sammen kan vi lett utlede damptykket som en funksjon av molfraksjon</p>
+<div class="math notranslate nohighlight">
+\[
+p_B = p^0_Bx_Be^{\chi_{AB}(1-x_B)^2}
+\]</div>
+</section>
+<section id="solvatering">
+<h2>Solvatering<a class="headerlink" href="#solvatering" title="Permalink to this headline">#</a></h2>
+<p>Se for deg at vi har en flytende blanding av to komponenter A og B. B er volatil og A er ikke. Generelt sett for blandinger gjelder det at</p>
+<div class="math notranslate nohighlight">
+\[
+p_B = p^0_Bx_Be^{\chi_{AB}(1-x_B)^2}
+\]</div>
+<p>der <span class="math notranslate nohighlight">\(p^0_B\)</span> er damptrykket til B.</p>
+<div class="math notranslate nohighlight">
+\[
+p^0_B = p^0_{B, int}exp(\frac{zw_{BB}}{2kT})
+\]</div>
+<p><span class="math notranslate nohighlight">\(\chi_{AB}\)</span> kalles <a class="reference internal" href="../appendiks/definisjoner.html#exchange-parameter"><span class="std std-ref">utvekslingsparameteren</span></a> og <span class="math notranslate nohighlight">\(\chi_{AB} &gt; 0\)</span> dersom A og B ikke liker hverandre, som f.eks. hvis A er hydrofob og B er hydrofil.</p>
+<p>Vi har to forskjellige spesialtilfeller når vi har to stoffer av forskjellig volatilitet. Det ene er at det volatile stoffet er et <em>løsemiddel</em>, altså at det er veldig mye av det. Det gjelder for eksempel i osmose eller når saltvann fryser.<br />
+Det andre er at det volatile stoffet er en <em>løsning</em>, altså at det er veldig lite av det. Det gjelder for eksempel når <span class="math notranslate nohighlight">\(CO_2\)</span> løses i vann.<br />
+Spesialtilfellene er beskrevet under.</p>
+</section>
+<section id="raoults-lov">
+<h2>Raoults lov<a class="headerlink" href="#raoults-lov" title="Permalink to this headline">#</a></h2>
+<p>Raoults lov gjelder når molfraksjonen til stoffet som kan bevege seg er svært stor, som f.eks. når vi har salt i vann. Den sier at det partielle trykket til en gass er lineært med molfraksjonen til gassen.</p>
+<div class="math notranslate nohighlight">
+\[
+p_B = p^0_Bx_B
+\]</div>
+<p>Når vi broker Raoults lov impliserer vi at vi har en entropidrevet effekt siden <a class="reference internal" href="../appendiks/definisjoner.html#exchange-parameter"><span class="std std-ref">utvekslingsparameteren</span></a> <span class="math notranslate nohighlight">\(\chi_{AB}\)</span>, leddet som har med forskjellene i styrke på intermolekylære bindinger ikke lenger er med i uttrykket.</p>
+<p>Man kan også se på det fra omvendt synsvinkel, og si at Raoults lov gjelder når <span class="math notranslate nohighlight">\(\chi_{AB}=0\)</span>, altså når A og B molekylene er like glad i hverandre som seg selv. Da er det åpenbart at vi har en entropidrevet effekt, siden forskjellene i bindingsenergi er 0.
+Raoults lov gjelder dermed for <strong>ideelle løsninger</strong>.</p>
+<div class="admonition-utledning admonition">
+<p class="admonition-title">Utledning</p>
+<p>Uttrykket kommer av å ta den generelle formelen for partielltrykk i blandinger, og så sette <span class="math notranslate nohighlight">\(x_B \approx 1\)</span>
+$<span class="math notranslate nohighlight">\(
+p*B = p^0_Bx_Be^{\chi*{AB}(1-x_B)^2}
+\)</span>$</p>
+</div>
+</section>
+<section id="henrys-lov">
+<h2>Henrys lov<a class="headerlink" href="#henrys-lov" title="Permalink to this headline">#</a></h2>
+<p>Henrys lov gjelder når molfraksjonen til det volatile stoffet er svært stor, f.eks. ved <span class="math notranslate nohighlight">\(CO_2\)</span> løst i vann. Da får vi at <span class="math notranslate nohighlight">\(x_B\rightarrow 0\)</span> og dermed</p>
+<div class="math notranslate nohighlight">
+\[
+p*B = p^0_Bx_Be^{\chi*{AB}^2}
+\]</div>
+<p>Vi kan åpenbart ikke tilnærme den gjenstående <span class="math notranslate nohighlight">\(x_B\)</span>-faktoren til 0 fordi da blir hele uttrykket 0.</p>
+</section>
+<section id="osmose">
+<h2>Osmose<a class="headerlink" href="#osmose" title="Permalink to this headline">#</a></h2>
+<p>Osmose er at vann trekker gjennom en membran på grunn av en saltgradient over membranen. Det gjør den fordi multiplisiteten øker. Se figur.</p>
+<figure class="align-default" id="osmose-lattice">
+<a class="reference internal image-reference" href="../_images/osmose-lattice.png"><img alt="../_images/osmose-lattice.png" src="../_images/osmose-lattice.png" style="width: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Multiplisiteten er høyest dersom alt vannet går over til den saltholdige fasen. Dette er drivkraften bak osmose.</span><a class="headerlink" href="#osmose-lattice" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Når vannet reiser over membranen blir det et trykk som motvirker prosessen. Dette kalles <strong>osmotisk trykk</strong>.</p>
+</section>
+<section id="salt-gjor-flytende-fase-mer-gunstig">
+<h2>Salt gjør flytende fase mer gunstig<a class="headerlink" href="#salt-gjor-flytende-fase-mer-gunstig" title="Permalink to this headline">#</a></h2>
+<p>Salt tilsatt vann gjør den flytende fasen mer gunstig. Det har effektene at salt <strong>senker frysepunktet</strong> og <strong>øker kokepunktet</strong>. Det er derfor vi salter veiene, da smelter isen på veien. (Vi salter dessverrre pastavannet av andre grunner). Denne effekten kommer av det samme multiplisitetsprinsippet som osmose.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">

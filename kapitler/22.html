@@ -50,6 +50,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="23: Saltløsninger og batteriteknologi" href="23.html" />
@@ -246,7 +248,7 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../appendiks/definisjoner.html">
-   Definisjoner
+   B: Definisjoner
   </a>
  </li>
 </ul>
@@ -404,12 +406,36 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#nernst-ligning">
+   Nernst ligning
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -421,6 +447,19 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#nernst-ligning">
+   Nernst ligning
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -432,6 +471,15 @@ title="Print to PDF"
 <h1>22: Elektrokjemisk likevekt<a class="headerlink" href="#elektrokjemisk-likevekt" title="Permalink to this headline">#</a></h1>
 <p>Det elektrokjemiske potensialet er en generalisering av det kjemiske potensialet som tar hensyn til ladde molekyler, som er nyttig i situasjoner der partiklene drives både av kjemiske interaksjoner og elektriske felt, for eksempel i syre-base-reaksjoner eller redoksreaksjoner. <strong>Elektrokjemisk potensial</strong> er hovedeksempelet på hvordan et <strong>ekstra energiledd</strong> kan legges til i de fundamentale ligningene, og hvordan man tar hensyn til energier og potensialer som avhenger av rom.</p>
 <p><strong>Halvcellepotensialer</strong> og <strong>Nernsts ligning</strong> innføres som en introduksjon til elektrokjemi. <strong>Elektrokjemi</strong> beskriver hvordan ioner beveger seg fra ett medium til et annet, batterier, og hvordan ioner binder seg til overflater.</p>
+<section id="nernst-ligning">
+<h2>Nernst ligning<a class="headerlink" href="#nernst-ligning" title="Permalink to this headline">#</a></h2>
+<p>Nernst ligning beskriver hvordan ionene fordeler seg som funksjon av det elektrostatiske potensialet fra omgivelsene.</p>
+<div class="math notranslate nohighlight">
+\[
+c(x_2) = c(x_1)\exp\left\{\frac{-ze[\psi(x_2)-\psi(x_1)]}{k_BT} \right\}
+\]</div>
+<p>Der <span class="math notranslate nohighlight">\(c(x)\)</span> er konsentrasjonen til <span class="math notranslate nohighlight">\(x\)</span>, <span class="math notranslate nohighlight">\(z\)</span> er antall ladninger per ion, <span class="math notranslate nohighlight">\(e\)</span> er protonladninga og <span class="math notranslate nohighlight">\(\psi(x)\)</span> er det elektrostatiske potensialet følt av et ion pga omgivelsene.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
